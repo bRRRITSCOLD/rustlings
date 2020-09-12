@@ -4,7 +4,7 @@
 // TODO: FINISH - I AM NOT DONE
 
 fn main() {
-    call_me();
+    call_me(2);
 }
 
 fn call_me(num: i32) {
