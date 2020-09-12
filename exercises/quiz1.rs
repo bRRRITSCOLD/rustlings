@@ -9,8 +9,13 @@
 
 // TODO: FINISH - I AM NOT DONE
 
-// Put your function here!
-// fn ..... {
+fn calculate_apple_price(amount: i32) -> i32 {
+  if amount > 40 {
+    return amount * 1;
+  } else {
+    return amount * 2;
+  }
+}
 
 // Don't modify this function!
 #[test]
